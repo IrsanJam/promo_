@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose, AiFillBackward } from "react-icons/ai";
+import { AiOutlineClose, AiFillBackward, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
+import { useState } from "react";
 
 const Navbar = () => {
-  const [nav, value] = useState(false);
-  const navM = () => {
-    value(!nav);
+  const [valueNavbar, setValueNavbar] = useState(false);
+
+  const aktifkanNavbarKecil = () => {
+    setValueNavbar(!valueNavbar);
   };
 
   window.onscroll = () => {
@@ -55,10 +56,10 @@ const Navbar = () => {
         </li>
         <li className="px-2 hover:cursor-pointer">Project</li>
       </ul>
-      <div className=" flex rounded-[10%] bg-basecolor p-3 text-basefont md:hidden md:rounded-none md:p-0" onClick={navM}>
-        {!nav ? <AiOutlineMenu size={20} className="  text-slate-300"></AiOutlineMenu> : <AiOutlineClose size={20} />}
+      <div onClick={aktifkanNavbarKecil} className=" flex rounded-[10%] bg-basecolor p-3 text-basefont md:hidden md:rounded-none md:p-0">
+        {!valueNavbar ? <AiOutlineMenu></AiOutlineMenu> : <AiOutlineClose></AiOutlineClose>}
       </div>
-      <div className={!nav ? "hidden" : "fixed left-0 top-0 z-[9999] h-full  w-[65%] border-r  border-slate-600   bg-basecolor px-5  py-[22px] text-basefont  opacity-[0.89]   duration-700 ease-linear md:hidden"}>
+      <div className={valueNavbar ? "fixed left-0 top-0 z-[9999] h-full  w-[65%] border-r  border-slate-600   bg-basecolor px-5  py-[22px] text-basefont  opacity-[0.89]   duration-700 ease-linear md:hidden" : "hidden"}>
         <h1 className=" pt-2 text-3xl font-bold text-green-400 ">React App</h1>
         <ul className="  pr-5 pt-[50px] text-[0.9rem] uppercase backdrop-blur-md">
           <li className=" border-b py-[13px]" onClick={keHome}>

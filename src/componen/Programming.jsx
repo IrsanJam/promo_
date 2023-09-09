@@ -6,7 +6,7 @@ function Programming() {
     <div id="about" className="mark container max-w-full">
       <div className="aturan-box lg:flex lg:items-center lg:justify-between lg:gap-5 lg:px-[4rem] lg:py-16">
         <div className=" -mt-5 mb-5 h-[10rem] w-full lg:flex lg:h-[16rem] lg:w-[25rem] ">
-          <img src={Gambar} alt="" className="rounded-lg" />
+          <img src={Gambar} alt="" className="rounded-lg md:w-72 " />
         </div>
         <div className=" text-justify lg:h-[20rem] lg:w-full lg:py-16 lg:pl-10 lg:pr-2">
           <p className="pt-5 text-[10px] font-bold uppercase text-green-500 md:text-[12px] lg:-mt-9 lg:pb-10">talk How programming come</p>

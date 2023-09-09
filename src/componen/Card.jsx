@@ -12,30 +12,30 @@ function Card() {
         <div className="group mb-16 rounded-xl bg-white text-center shadow-xl duration-300 ease-in-out hover:scale-110 hover:rounded-md hover:bg-slate-500 hover:text-basefont  lg:h-[21rem] lg:flex-1 lg:px-[-10rem] lg:py-14">
           <AiFillShop size={60} className="mx-auto -mt-[2rem] h-10 w-8 pt-3 lg:h-14 lg:w-14 lg:pt-0 "></AiFillShop>
           <h3 className="text-[1rem] font-bold">Package Start</h3>
-          <h1 className="mx-12 border-b-[1px] border-slate-400 pb-3 text-4xl font-bold lg:py-3 lg:text-[2rem]">$39</h1>
-          <p className="mx-12 border-b-[1px] border-slate-400 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn HTML</p>
-          <p className="mx-12 border-b-[1px] border-slate-400 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn CSS</p>
-          <p className="mx-12 border-b-[1px] border-slate-400 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Javascript</p>
+          <h1 className="mx-12 border-b-[1px] border-slate-200 pb-3 text-4xl font-bold lg:py-3 lg:text-[2rem]">$39</h1>
+          <p className="mx-12 border-b-[1px] border-slate-200 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn HTML</p>
+          <p className="mx-12 border-b-[1px] border-slate-200 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn CSS</p>
+          <p className="mx-12 border-b-[1px] border-slate-200 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Javascript</p>
           <button className=" mb-2 mt-2 rounded-xl  bg-primary px-5 py-2 text-[10px] font-bold text-black hover:scale-105 group-hover:bg-orange-500 lg:mt-5 lg:px-14 lg:py-2 lg:text-[14px] ">Get Started</button>
         </div>
 
         <div className="group mb-16 rounded-xl bg-white text-center shadow-xl duration-300 ease-in-out hover:scale-110 hover:rounded-md hover:bg-slate-500 hover:text-basefont  lg:h-[21rem] lg:flex-1 lg:px-[-10rem] lg:py-14">
           <AiFillAlipayCircle size={60} className=" mx-auto -mt-[2rem] h-10 w-8 pt-3 lg:h-14 lg:w-14 lg:pt-0 "></AiFillAlipayCircle>
           <h3 className="text-[1rem] font-bold">Package Middle</h3>
-          <h1 className="mx-12 border-b-[1px] border-slate-400 pb-3 text-4xl font-bold lg:py-3 lg:text-[2rem]">$69</h1>
-          <p className="mx-12 border-b-[1px] border-slate-400 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Git</p>
-          <p className="mx-12 border-b-[1px] border-slate-400 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn TailwindCSS</p>
-          <p className="mx-12 border-b-[1px] border-slate-400 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Bootstrap</p>
+          <h1 className="mx-12 border-b-[1px] border-slate-200 pb-3 text-4xl font-bold lg:py-3 lg:text-[2rem]">$69</h1>
+          <p className="mx-12 border-b-[1px] border-slate-200 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Git</p>
+          <p className="mx-12 border-b-[1px] border-slate-200 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn TailwindCSS</p>
+          <p className="mx-12 border-b-[1px] border-slate-200 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Bootstrap</p>
           <button className=" mb-2 mt-2 rounded-xl  bg-primary px-5 py-2 text-[10px] font-bold text-black hover:scale-105 group-hover:bg-orange-500 lg:mt-5 lg:px-14 lg:py-2 lg:text-[14px] ">Get Started</button>
         </div>
 
         <div className="group mb-16 rounded-xl bg-white text-center shadow-xl duration-300 ease-in-out hover:scale-110 hover:rounded-md hover:bg-slate-500 hover:text-basefont  lg:h-[21rem] lg:flex-1 lg:px-[-10rem] lg:py-14">
           <AiFillAmazonSquare size={60} className="mx-auto -mt-[2rem] h-10 w-8 pt-3 lg:h-14 lg:w-14 lg:pt-0 "></AiFillAmazonSquare>
           <h3 className="text-[1rem] font-bold">Package Finishing</h3>
-          <h1 className="mx-12 border-b-[1px] border-slate-400 pb-3 text-4xl font-bold lg:py-3 lg:text-[2rem]">$99</h1>
-          <p className="mx-12 border-b-[1px] border-slate-400 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Rest API</p>
-          <p className="mx-12 border-b-[1px] border-slate-400 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn React JS</p>
-          <p className="mx-12 border-b-[1px] border-slate-400 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Deployment</p>
+          <h1 className="mx-12 border-b-[1px] border-slate-200 pb-3 text-4xl font-bold lg:py-3 lg:text-[2rem]">$99</h1>
+          <p className="mx-12 border-b-[1px] border-slate-200 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Rest API</p>
+          <p className="mx-12 border-b-[1px] border-slate-200 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn React JS</p>
+          <p className="mx-12 border-b-[1px] border-slate-200 py-[4px] text-[8px] lg:font-bold lg:text-[11px]">Learn Deployment</p>
           <button className=" mb-2 mt-2 rounded-xl  bg-primary px-5 py-2 text-[10px] font-bold text-black hover:scale-105 group-hover:bg-orange-500 lg:mt-5 lg:px-14 lg:py-2 lg:text-[14px] ">Get Started</button>
         </div>
       </div>
